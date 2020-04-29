@@ -1,0 +1,21 @@
+<Grid container direction="column">
+        <p>Header</p>
+        <Grid container direction="row">
+          <Grid container item direction="column" xs={5}>
+            Form
+            <Grid container spacing={3}>
+              <Grid item xs={6}>Card</Grid>
+              <Grid item xs={6}>Card</Grid>
+              <Grid item xs={6}>Card</Grid>
+              <Grid item xs={6}>Card</Grid>
+            </Grid>
+          </Grid> 
+          <Grid container xs={1}>
+            <hr style={{height: "100vh"}}/>
+          </Grid>
+          <Grid container item direction="column" xs={6}>
+            <h2>Favorite music</h2>
+            <div>Table</div>
+          </Grid>
+        </Grid>
+      </Grid>
